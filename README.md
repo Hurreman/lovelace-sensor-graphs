@@ -18,7 +18,7 @@ Add the following to your `<config>/ui-lovelace.yaml` file.
 
 ```yaml
 resources:
-  - url: /local/lovelace-sensor-graphs/lovelace-sensor-graphs.js
+  - url: /local/lovelace-sensor-graphs/sensor-graphs.js
     type: js
 ```
 
@@ -27,7 +27,7 @@ resources:
 Add a custom element in your `<config>/ui-lovelace.yaml`
 
 ```yaml
-      - type: "custom:lovelace-sensor-graphs"
+      - type: "custom:sensor-graphs"
         entities:
           - sensor.bedroom_temperature
           - sensor.livingroom_temperature
