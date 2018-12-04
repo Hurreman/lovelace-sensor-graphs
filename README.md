@@ -6,6 +6,12 @@ I didn´t like the look of the default history-graph card in lovelace, so I star
 Note that this is highly Work-In-Progress, and use it at your own risk! :D
 And feel free to contribute!
 
+## TO-DO
+- Reload graphs when there´s new data
+- Add option for other intervals than hourly
+- Add styling options
+- Add naming options for entities
+
 ## Installation
 
 ### Step 1
